@@ -19,7 +19,7 @@
     </properties>
 
     <!--组件仓库-->
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>maven-net-cn</id>
             <name>Maven China Mirror</name>
@@ -44,7 +44,7 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories>-->
 
     <dependencies>
         <dependency>
@@ -56,19 +56,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>db2</groupId>
-            <artifactId>my-db</artifactId>
-            <version>1.0.0</version>
-            <type>pom</type>
         </dependency>
 
     </dependencies>
