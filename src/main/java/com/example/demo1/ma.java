@@ -14,6 +14,6 @@ import org.springframework.web.servlet.ModelAndView;
 public class ma {
     @RequestMapping(value = "/")
     public String main(){
-        return "hollo";
+        return "hollo changed";
     }
 }
