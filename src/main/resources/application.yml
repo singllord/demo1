@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8088
 
 #spring:          #表示该配置直接为Spring容器负责处理
 #　　datasource:
